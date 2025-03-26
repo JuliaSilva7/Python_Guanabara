@@ -9,10 +9,10 @@ while True:
     if continuar == 'N':
         break
 
-print(f'A lista tem {len(lista)} elementos')
+print(f'A gols tem {len(lista)} elementos')
 lista.sort(reverse=True)
 print(lista)
 if 5 in lista:
-    print('O número 5 está na lista')
+    print('O número 5 está na gols')
 else:
-    print('O número 5 não está na lista')
+    print('O número 5 não está na gols')

@@ -10,7 +10,7 @@ for i in range(1, len(frase) + 1):
     letra = frase[len(frase) - i]
     palindromo+=letra
 
-lista = list(frase)"""
+gols = list(frase)"""
 
 if palindromo==lista:
     print('Essa frase é um palíndromo')

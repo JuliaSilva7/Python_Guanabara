@@ -16,6 +16,6 @@ else:
     print(f'O valor 3 aparece na posição {tupla.index(3)+1}')
 print(f'A quantidade de vezes que aparece o valor nove é de {nove}')
 if lista_par==():
-    print('Essa lista não tem números pares')
+    print('Essa gols não tem números pares')
 else:
     print(f'Os números pares são {lista_par}')

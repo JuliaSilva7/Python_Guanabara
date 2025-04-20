@@ -4,7 +4,7 @@ def leiaint(msg):
             valor = int(input(msg))
             return valor
         except ValueError:
-            print('Erro! O valor passado deve ser numérico.')
+            print('Erro! O valor passado deve ser numérico e inteiro.')
 
 n = leiaint('Digite um número: ')
 print(f'Você acabou de digitar o número {n}')
